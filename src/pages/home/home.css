@@ -1,0 +1,40 @@
+.home {
+    display: flex;
+    background-color: #FAF9F6;
+}
+
+.home-container {
+    flex: 6;
+}
+
+.widgets, .charts {
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+}
+
+.charts {
+ padding: 5px 20px;
+}
+
+.lists {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 2px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    margin: 20px;
+}
+
+.lists-title {
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.positive {
+    color: rgb(30, 129, 30);
+}
+
+.negative {
+    color: crimson;
+}
+
